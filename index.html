@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chuck Norris jokes</title>
+    <link rel="stylesheet" href="style.css">
+   </head>
+  <body>
+    <section>
+    <div id="container__jokes5">
+    </div>
+    <div id="container__jokes_choise">
+      <form>
+        <div>
+          <label for="input_choice">Сhoose how many jokes you want to read</label>
+          <input id="input_choice" type="number" min="0" oninput="validity.valid||(value='');">
+         </div>
+        <button type="button" id="btn_add_more_jokes">Show more jokes</button>
+      </form>
+      <div id="container__more-jokes"></div>
+    </div>
+    </section>
+      <script src="main.js" defer></script>
+  </body>
+</html>
